@@ -1,48 +1,48 @@
-# Uinjad
+## Uinjad — Systems Developer
 
-**3D Artist · iOS Developer · Go Backend · Rust learner**
+**Rust · Go · Embedded · Real-time systems**
 
-> 7+ years in 3D — from high-end commercial production to real-time mobile AR.
-> I ship full products: designed, built, and published GlassMind on the App Store.
-> Currently going deep on Rust and systems programming.
+I build software where correctness and performance are non-negotiable.
 
----
-
-## Stack
-
-`Go` `Rust` `Swift / iOS` `Unreal Engine` `Adobe Substance 3D` `Blender`
+Background in real-time mission-critical systems — environments where
+latency, fault tolerance, and hardware constraints are first-class concerns.
+Currently focusing on Rust and systems programming in Japan.
 
 ---
 
-## Selected work
+### Projects
 
-- **GlassMind** — minimalist iOS productivity app, published on App Store
-- **Votan** — Go real-time data integration engine
-- **Adobe Substance 3D** — featured in the official book
-- **Sketchfab Art Spotlight** — awarded for real-time material design
-- **Nova Poshta** — 3D assets for Ukraine's largest logistics company
+**[guitar-hero-fgdp50](https://github.com/uinjad/guitar-hero-fgdp50)**
+Real-time rhythm game engine in Rust + Bevy. MIDI file parser,
+fixed-timestep game loop, scoring system.
+`rust` `bevy` `midi` `real-time`
+
+**[Votan](https://github.com/uinjad/Votan)**
+Real-time data integration engine in Go.
+`go` `backend` `data-pipeline`
+
+**Pi Pico MIDI Controller** *(in progress)*
+Embedded Rust on RP2040. USB MIDI device via embassy-rs.
+`rust` `embedded` `rp2040` `embassy-rs` `hardware`
 
 ---
 
-## Currently
+### Stack
 
-Learning Rust. Building things that matter.
+| Domain       | Tools                              |
+|--------------|------------------------------------|
+| Systems      | Rust, Go                           |
+| Embedded     | embassy-rs, RP2040                 |
+| Async        | Tokio, async/await                 |
+| Real-time    | Bevy, fixed-timestep, MIDI parsing |
+| Prev. stack  | Swift/iOS, Unreal Engine, Blender  |
 
 ---
 
-📍 Iceland · Available remote · arthurdovis@gmail.com
+### Currently
 
-<!--
-**uinjad/uinjad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+→ Deepening Rust (async, embedded, networking)
+→ Based in Japan, open to Rust / Go roles
+→ JLPT study in progress
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📫 arthurdovis@gmail.com
