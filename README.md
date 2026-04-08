@@ -12,7 +12,7 @@ Currently focusing on Rust and systems programming in Japan.
 
 ### Projects
 
-**[guitar-hero-fgdp50](https://github.com/uinjad/guitar-hero-fgdp50)**
+**[fgdp50-hero](https://github.com/uinjad/fgdp50-hero)**
 Real-time rhythm game engine in Rust + Bevy. MIDI file parser,
 fixed-timestep game loop, scoring system.
 `rust` `bevy` `midi` `real-time`
