@@ -1,48 +1,43 @@
-## Uinjad — Systems Developer
+### Backend Engineer (Go)
 
-**Rust · Go · Embedded · Real-time systems**
+I build backend services in Go — clean architecture, correctness, and
+performance as first-class concerns. Remote-first · trilingual · based in Japan.
 
-I build software where correctness and performance are non-negotiable.
-
-Background in real-time mission-critical systems — environments where
-latency, fault tolerance, and hardware constraints are first-class concerns.
-Currently focusing on Rust and systems programming in Japan.
+**Core:** Go · PostgreSQL · REST / gRPC · Docker · CI
 
 ---
 
-### Projects
+### Selected Go work
 
-**[fgdp50-hero](https://github.com/uinjad/fgdp50-hero)**
-Real-time rhythm game engine in Rust + Bevy. MIDI file parser,
-fixed-timestep game loop, scoring system.
-`rust` `bevy` `midi` `real-time`
+**[AzureNights2](https://github.com/uinjad/AzureNights2)** — hexagonal architecture
+Turn-based engine with a pure domain core and pluggable adapters (TUI now;
+storage and an HTTP server as plug-in adapters). Clean `internal/domain`
+boundary, CI from the first commit. Building in the open.
+`go` `hexagonal-architecture` `ddd`
 
-**[Votan](https://github.com/uinjad/Votan)**
-Real-time data integration engine in Go.
-`go` `backend` `data-pipeline`
-
-**Pi Pico MIDI Controller** *(in progress)*
-Embedded Rust on RP2040. USB MIDI device via embassy-rs.
-`rust` `embedded` `rp2040` `embassy-rs` `hardware`
+**[Votan](https://github.com/uinjad/Votan)** — real-time data integration engine
+Concurrent ingestion and integration pipelines that keep downstream clients
+fed with clean, fresh data.
+`go` `backend` `concurrency` `data-pipeline`
 
 ---
 
 ### Stack
 
-| Domain       | Tools                              |
-|--------------|------------------------------------|
-| Systems      | Rust, Go                           |
-| Embedded     | embassy-rs, RP2040                 |
-| Async        | Tokio, async/await                 |
-| Real-time    | Bevy, fixed-timestep, MIDI parsing |
-| Prev. stack  | Swift/iOS, Unreal Engine, Blender  |
+| Area     | Tools                                         |
+|----------|-----------------------------------------------|
+| Backend  | Go, PostgreSQL, REST, gRPC                     |
+| Infra    | Docker, GitHub Actions, Linux                 |
+| Also     | Python, Swift/iOS (shipped App Store app) |
 
 ---
 
-### Currently
+### The background that shows up in my code
 
-→ Deepening Rust (async, embedded, networking)
-→ Based in Japan, open to Rust / Go roles
-→ JLPT study in progress
+Before engineering full-time I shipped real products end-to-end — a live iOS
+app (GlassMind) and an Unreal mobile game under hard frame/memory budgets.
+Earlier I served as a UAV unit commander in the Armed Forces:
+latency, fault tolerance, and reliability as first-class concerns, with no
+room for error. That's the mindset I bring to backend systems.
 
 📫 arthurdovis@gmail.com
