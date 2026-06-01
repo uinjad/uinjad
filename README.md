@@ -40,4 +40,4 @@ Earlier I served as a UAV unit commander in the Armed Forces:
 latency, fault tolerance, and reliability as first-class concerns, with no
 room for error. That's the mindset I bring to backend systems.
 
-📫 arthurdovis@gmail.com
+📫 uinjad@tuta.io
